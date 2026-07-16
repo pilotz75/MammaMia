@@ -117,5 +117,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: dula117/mammamia:latest
+          tags: pilotz75/mammamia:latest
         if: steps.sync.outputs.no_change == 'false'
